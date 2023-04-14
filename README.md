@@ -27,4 +27,12 @@ The chip sequence used for the ChipSat consists of 63 (2^6-1) bits, and is defin
 
 ### Packet Structure
 
-TBD
+TBC (To Be Confirmed)
+```
+| header (TBD) | packet #no  |   data type   |  boot cnt |  temperature | data 1 | data 2 | data 3 | crc |
+|     TBD      |   2 bytes   |     2 bit     |   6 bit   |    float     | float  | float  | float  | TBD |
+```
+where `data` can be:
+- If `data type == 0`, ambient light sensor data
+- If `data type == 1`, gyroscope data for each axis
+- If `data type == 2`, accelerometer data for each axis
