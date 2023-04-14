@@ -13,6 +13,7 @@ Telemetry decoding information, and provisionally source code, to be uploaded he
 | Modulation       | FSK                     |
 | Error Correction | None                    |
 | Chip Sequence    | DSSS with chip sequence |
+| Frequency Deviation | TBD                  |
 | Bit rate         | 200 bits/s (raw data)   |
 
 The mission uses the [STM32WL55CC](https://www.st.com/en/microcontrollers-microprocessors/stm32wl55cc.html) transceiver.
