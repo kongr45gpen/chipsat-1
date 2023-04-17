@@ -2,7 +2,7 @@
 
 Placeholder repository for the ChipSat-1 project.
 
-Telemetry decoding information, and provisionally source code, to be uploaded here.
+Telemetry decoding information scripts, and provisionally spacecraft source code, to be uploaded here.
 
 ## Telemetry coding
 
@@ -36,3 +36,7 @@ where `data` can be:
 - If `data type == 0`, ambient light sensor data
 - If `data type == 1`, gyroscope data for each axis
 - If `data type == 2`, accelerometer data for each axis
+
+## GNURadio Decoding Tree
+
+Under construction...
