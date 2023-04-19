@@ -19,10 +19,10 @@ Telemetry decoding information scripts, and provisionally spacecraft source code
 The mission uses the [STM32WL55CC](https://www.st.com/en/microcontrollers-microprocessors/stm32wl55cc.html) transceiver.
 
 ### Chip Sequence
-The chip sequence used for the ChipSat consists of 63 (2^6-1) bits, and is defined as follows:
+The chip sequence used for the ChipSat consists of 31 (2^5-1) bits, and is defined as follows:
 ```
-0: [1 0 0 0 0 0 1 1 1 1 1 1 0 1 0 1 0 1 1 0 0 1 1 0 1 1 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 1 1 0 0 1 0 1 0 0 0 1 1 0 0 0 0]
-1: [1 0 0 0 1 0 1 1 1 1 0 0 1 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 1 1 1 1 1 1 0 1 0 1 0 1 1 0 0 1 1 0 1 1 1 0 1 1 0 1 0 0 1 0 0 1 1]
+0: [0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 0 0 0 0 1 0 1 0 1 1 1 0 1 1 0 0]
+1: [0 0 0 1 0 1 0 1 1 1 0 1 1 0 0 0 1 1 1 1 1 0 0 1 1 0 1 0 0 1 0]
 ```
 
 ### Packet Structure
