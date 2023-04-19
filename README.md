@@ -40,3 +40,9 @@ where `data` can be:
 ## GNURadio Decoding Tree
 
 Under construction...
+
+## Telecommand coding
+ChipSat-1 does not have the capability to receive TC from ground.
+
+## Links
+- [SpaSys Research Group](https://wwwen.uni.lu/snt/research/spasys)
